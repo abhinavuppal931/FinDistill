@@ -60,7 +60,7 @@ uv run dexter-agent
 
 ### Example Queries
 
-Try asking Dexter questions like:
+Try asking FinDistill questions like:
 - "What was Apple's revenue growth over the last 4 quarters?"
 - "Compare Microsoft and Google's operating margins for 2023"
 - "Analyze Tesla's cash flow trends over the past year"
@@ -74,7 +74,7 @@ Dexter will automatically:
 
 ## Architecture
 
-Dexter uses a multi-agent architecture with specialized components:
+FinDistill uses a multi-agent architecture with specialized components:
 
 - **Planning Agent**: Analyzes queries and creates structured task lists
 - **Action Agent**: Selects appropriate tools and executes research steps
@@ -100,7 +100,7 @@ dexter/
 
 ## Configuration
 
-Dexter supports configuration via the `Agent` class initialization:
+FinDistill supports configuration via the `Agent` class initialization:
 
 ```python
 from dexter.agent import Agent
