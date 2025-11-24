@@ -110,19 +110,3 @@ agent = Agent(
     max_steps_per_task=5       # Per-task iteration limit
 )
 ```
-
-## How to Contribute
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-**Important**: Please keep your pull requests small and focused.  This will make it easier to review and merge.
-
-
-## License
-
-This project is licensed under the MIT License.
-
